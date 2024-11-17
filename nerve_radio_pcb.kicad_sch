@@ -658,7 +658,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_02x15_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x15_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -672,7 +672,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x15_Counter_Clockwise"
+			(property "Value" "Conn_02x15_Odd_Even"
 				(at 1.27 -20.32 0)
 				(effects
 					(font
@@ -698,7 +698,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x15, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x15, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -725,7 +725,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x15_Counter_Clockwise_1_1"
+			(symbol "Conn_02x15_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 -17.653)
 					(end 0 -17.907)
@@ -1086,7 +1086,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at 7.62 7.62 180)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -1104,7 +1104,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_11"
 						(effects
@@ -1122,7 +1122,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
+					(at 7.62 5.08 180)
 					(length 3.81)
 					(name "Pin_12"
 						(effects
@@ -1140,7 +1140,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -12.7 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_13"
 						(effects
@@ -1158,7 +1158,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -15.24 0)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_14"
 						(effects
@@ -1176,7 +1176,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -17.78 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_15"
 						(effects
@@ -1194,7 +1194,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -17.78 180)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_16"
 						(effects
@@ -1212,7 +1212,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -15.24 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_17"
 						(effects
@@ -1230,7 +1230,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -12.7 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_18"
 						(effects
@@ -1248,7 +1248,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -10.16 180)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_19"
 						(effects
@@ -1266,7 +1266,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 15.24 0)
+					(at 7.62 17.78 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1284,7 +1284,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -7.62 180)
+					(at 7.62 -5.08 180)
 					(length 3.81)
 					(name "Pin_20"
 						(effects
@@ -1302,7 +1302,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_21"
 						(effects
@@ -1320,7 +1320,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 7.62 -7.62 180)
 					(length 3.81)
 					(name "Pin_22"
 						(effects
@@ -1338,7 +1338,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at -5.08 -10.16 0)
 					(length 3.81)
 					(name "Pin_23"
 						(effects
@@ -1356,7 +1356,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at 7.62 -10.16 180)
 					(length 3.81)
 					(name "Pin_24"
 						(effects
@@ -1374,7 +1374,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
+					(at -5.08 -12.7 0)
 					(length 3.81)
 					(name "Pin_25"
 						(effects
@@ -1392,7 +1392,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 7.62 180)
+					(at 7.62 -12.7 180)
 					(length 3.81)
 					(name "Pin_26"
 						(effects
@@ -1410,7 +1410,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 10.16 180)
+					(at -5.08 -15.24 0)
 					(length 3.81)
 					(name "Pin_27"
 						(effects
@@ -1428,7 +1428,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 12.7 180)
+					(at 7.62 -15.24 180)
 					(length 3.81)
 					(name "Pin_28"
 						(effects
@@ -1446,7 +1446,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 180)
+					(at -5.08 -17.78 0)
 					(length 3.81)
 					(name "Pin_29"
 						(effects
@@ -1464,7 +1464,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 12.7 0)
+					(at -5.08 15.24 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1482,7 +1482,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 17.78 180)
+					(at 7.62 -17.78 180)
 					(length 3.81)
 					(name "Pin_30"
 						(effects
@@ -1500,7 +1500,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 10.16 0)
+					(at 7.62 15.24 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -1518,7 +1518,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at -5.08 12.7 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -1536,7 +1536,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at 7.62 12.7 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -1554,7 +1554,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 10.16 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -1572,7 +1572,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 7.62 10.16 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -1590,7 +1590,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -5775,158 +5775,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x15_Counter_Clockwise")
-		(at 43.18 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b1a7afa-1547-4af8-9fc7-1fa9af076bad")
-		(property "Reference" "J1"
-			(at 44.45 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2x15"
-			(at 44.45 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x15_P1.27mm_Vertical_SMD"
-			(at 43.18 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x15, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 43.18 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "21"
-			(uuid "51770e2e-3279-45a9-8bb0-dcfb26247025")
-		)
-		(pin "15"
-			(uuid "487dfb7f-bb96-4db7-8881-7a6944bfe77c")
-		)
-		(pin "16"
-			(uuid "14726574-d4a1-4f24-bb1a-b0d471be9113")
-		)
-		(pin "25"
-			(uuid "5d2a5c4a-3844-443b-93d5-167d7d06dee1")
-		)
-		(pin "19"
-			(uuid "2e6e833c-848b-4077-a0e8-bf34ecdcca1a")
-		)
-		(pin "13"
-			(uuid "6061d931-beff-4f82-b1e8-972daaa34768")
-		)
-		(pin "2"
-			(uuid "2bf30064-7855-49b0-9587-4ddf9ae83c4a")
-		)
-		(pin "10"
-			(uuid "713d906b-e729-4162-8dc5-d7e1e6490415")
-		)
-		(pin "27"
-			(uuid "d586f7c5-6e0f-451f-918a-d02e02634b51")
-		)
-		(pin "11"
-			(uuid "3c1c1900-ec56-4bb2-87fc-4b25b259728a")
-		)
-		(pin "28"
-			(uuid "a33c5967-deb9-44ab-a222-3be823258567")
-		)
-		(pin "29"
-			(uuid "5ab3ce38-141a-460d-bc9f-d39ac7ab28ab")
-		)
-		(pin "24"
-			(uuid "b0a0f8ab-5caf-4113-aa6a-bd18fe87cf6f")
-		)
-		(pin "1"
-			(uuid "8d0b1a60-427c-467b-8be8-0e377e9e3a5f")
-		)
-		(pin "3"
-			(uuid "cf7e3202-5f57-4d71-8efb-1546ebd947fb")
-		)
-		(pin "4"
-			(uuid "5694fa50-c411-48e9-bd6d-ef69efa73b70")
-		)
-		(pin "30"
-			(uuid "a2bb2251-88c6-409b-8158-d930722fa6ac")
-		)
-		(pin "20"
-			(uuid "5f13015c-da4f-48d4-9ed8-6c5da9e19fde")
-		)
-		(pin "6"
-			(uuid "5a8078e8-1846-462d-bd4a-6d8c203bb019")
-		)
-		(pin "9"
-			(uuid "40bbed98-4255-41c4-8f64-47b39d173bb2")
-		)
-		(pin "26"
-			(uuid "3646cba8-8df6-40ab-a628-a763076ae6a9")
-		)
-		(pin "14"
-			(uuid "db739093-3f50-42af-862c-e7b5885656e0")
-		)
-		(pin "5"
-			(uuid "f174b8cf-6caf-4f02-808b-5492d7aef908")
-		)
-		(pin "7"
-			(uuid "d43629b8-34e9-4724-8da7-8336b2c0febd")
-		)
-		(pin "12"
-			(uuid "5e6082a0-9cd4-4525-a6e5-2a27ea0dee77")
-		)
-		(pin "8"
-			(uuid "3325cdda-ae47-400a-ae95-248c5e7d7c61")
-		)
-		(pin "17"
-			(uuid "2150ff4d-703f-41b0-8628-58c3e9778151")
-		)
-		(pin "23"
-			(uuid "76c09534-d842-4705-9f81-6fcc8ef5f779")
-		)
-		(pin "18"
-			(uuid "4160fd28-205b-4529-8423-99b0437c6690")
-		)
-		(pin "22"
-			(uuid "152b2d26-1e7f-4b26-a72b-50fa4ce50ab3")
-		)
-		(instances
-			(project "nerve_radio_pcb"
-				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 50.8 40.64 90)
 		(unit 1)
@@ -6675,6 +6523,158 @@
 			(project "nerve_radio_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x15_Odd_Even")
+		(at 43.18 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fa6434c-3eb3-4f3c-8fb4-694a1983ca2c")
+		(property "Reference" "J1"
+			(at 44.45 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2x15"
+			(at 44.45 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x15_P1.27mm_Vertical_SMD"
+			(at 43.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x15, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 43.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "24"
+			(uuid "1c239267-3626-4e56-b24c-1bd309a7c377")
+		)
+		(pin "21"
+			(uuid "abacf652-d8c9-476f-b46c-17c4b93765ab")
+		)
+		(pin "3"
+			(uuid "34986a41-d5ac-418c-a6c7-75fc3e42d2a6")
+		)
+		(pin "13"
+			(uuid "36190d28-9e28-408f-8b1d-517abe17e727")
+		)
+		(pin "2"
+			(uuid "1dd99543-4152-41a7-aa7d-5363597e3db9")
+		)
+		(pin "27"
+			(uuid "c983fb6f-1a1c-4d1d-8efa-15ea9e89a48f")
+		)
+		(pin "29"
+			(uuid "a31df81e-c68d-4ed2-a5ac-25af584722c6")
+		)
+		(pin "12"
+			(uuid "624af89b-ba20-48da-b18d-831e2d2680f5")
+		)
+		(pin "20"
+			(uuid "71955745-9c03-42a2-baca-6f3204a299d3")
+		)
+		(pin "4"
+			(uuid "2b7ad6c7-a2ad-4ac8-8fc1-3d38e88f68f0")
+		)
+		(pin "10"
+			(uuid "f16edba5-4c0e-4ba4-b680-97eb0c4ba0c1")
+		)
+		(pin "14"
+			(uuid "936ff6b8-bf33-4f8b-a96a-ca686941ada5")
+		)
+		(pin "17"
+			(uuid "9d2927ec-17c6-4380-9b27-2d4f9b526f03")
+		)
+		(pin "22"
+			(uuid "d8ef77e9-1883-4378-b215-1b80d1e3a0b0")
+		)
+		(pin "9"
+			(uuid "3d94e84a-597e-48ca-8dc3-fb6ba538b964")
+		)
+		(pin "18"
+			(uuid "4966f815-d8f8-4d93-befd-1fd59b0ecc62")
+		)
+		(pin "16"
+			(uuid "af9daa27-6e93-4f6b-83ae-cab7ae9966f1")
+		)
+		(pin "23"
+			(uuid "2608e399-0714-4f0b-a2d5-079fc1894805")
+		)
+		(pin "19"
+			(uuid "4f596033-d115-4eef-b5b4-963741561fd4")
+		)
+		(pin "25"
+			(uuid "e371027d-aa01-4f50-b90f-154c4b2fe756")
+		)
+		(pin "5"
+			(uuid "ade2f40a-9b0f-4a18-9a5b-ba8c10102b38")
+		)
+		(pin "7"
+			(uuid "59573be7-d762-4c3f-8fc3-19f36d4107ff")
+		)
+		(pin "8"
+			(uuid "a7a346f5-90ae-48b9-a835-6d62c26873eb")
+		)
+		(pin "26"
+			(uuid "783f03ce-4427-4624-9db7-cdb1263f90ce")
+		)
+		(pin "15"
+			(uuid "2cbbdd0e-91e7-4990-9992-0038dd2ec03e")
+		)
+		(pin "1"
+			(uuid "3e77329a-1bb0-4aa4-a944-e7ddda7de2ea")
+		)
+		(pin "11"
+			(uuid "bd694f7a-e9f7-43a9-a1af-e2739acb6e6a")
+		)
+		(pin "28"
+			(uuid "14614614-4546-4cb5-9033-1be4d3da043f")
+		)
+		(pin "30"
+			(uuid "bc91341e-ade1-4198-8b7c-6dbaf6151e6f")
+		)
+		(pin "6"
+			(uuid "89350d33-d8ec-4590-b8fe-ab618035415f")
+		)
+		(instances
+			(project ""
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
+					(reference "J1")
 					(unit 1)
 				)
 			)
