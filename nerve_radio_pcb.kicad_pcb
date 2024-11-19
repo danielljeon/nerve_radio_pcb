@@ -188,7 +188,7 @@
 		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
 		(property "Reference" "J3"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "56b8515f-2623-4c27-b890-e5f7da41629f")
 			(effects
@@ -199,7 +199,7 @@
 			)
 		)
 		(property "Value" "3V SPI Breakout"
-			(at 0 20.11 360)
+			(at 0 20.11 0)
 			(layer "F.Fab")
 			(uuid "577552a0-2bd8-4964-8f24-4dce169f4f93")
 			(effects
@@ -2527,7 +2527,7 @@
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J2"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "5d700d57-8ddc-4b05-a6de-bb1c04fe774a")
 			(effects
@@ -2538,7 +2538,7 @@
 			)
 		)
 		(property "Value" "5V UART Breakout"
-			(at 0 9.95 360)
+			(at 0 9.95 0)
 			(layer "F.Fab")
 			(uuid "20eda1a4-4bb2-48b4-a972-f7ec0b5bd28e")
 			(effects
@@ -3091,7 +3091,7 @@
 			)
 		)
 		(property "Manufacturer" "Digi"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "debf1b93-5353-44cb-9007-afabc2cb1e5a")
@@ -3103,7 +3103,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "XBP9B-Dxxx-nnn"
-			(at 0 16.4719 360)
+			(at 0 16.4719 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6ac87782-71b4-4417-8cc4-e77809b27ff6")
@@ -3988,7 +3988,7 @@
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J4"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "373be307-c0de-4bed-9b78-697721c131c9")
 			(effects
@@ -3999,7 +3999,7 @@
 			)
 		)
 		(property "Value" "5V GPIO Breakout"
-			(at 0 9.95 360)
+			(at 0 9.95 0)
 			(layer "F.Fab")
 			(uuid "ab8dfb53-97b3-4297-9dba-684171099fa9")
 			(effects
@@ -4781,11 +4781,30 @@
 		(layer "Edge.Cuts")
 		(uuid "f0071572-af31-4d85-a669-106f03ddc5ce")
 	)
-	(gr_text_box "PCBWay 4-Layer Stackup:\n  - Thickness: 1.6MM\n  - Finished Outer Copper: 1OZ\n  - Inner Copper: 1OZ\n  - Inner layer Residual copper ratio: 70%"
-		(start 230 167)
-		(end 284.25 181)
+	(gr_text_box "PCBWay 4-Layer Stackup:\n  - Thickness: 1.6 mm\n  - Finished outer copper: 1 oz\n  - Inner copper: 1 oz\n  - Inner layer residual copper ratio: 70%"
+		(start 231.75 167)
+		(end 284 181)
 		(layer "Cmts.User")
-		(uuid "62e936dd-0680-45c6-a1c1-093c6a6fcc48")
+		(uuid "6df4005e-345c-4cc4-9cd9-41d16941f372")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+	)
+	(gr_text_box "PCBWay 4-Layer Stackup (Detailed):\n\nLayer 1 (Top Layer): Copper\n  - Thickness: 0.0175 mm (0.5 oz)\n\nDielectric 1: Prepreg (FR4 7628 RC46)\n  - Thickness: 0.1855 mm\n  - Dielectric Constant: 4.74\n  - Loss Tangent: 0.02\n\nLayer 2 (Inner Layer 1): Copper\n  - Thickness: 0.035 mm (1 oz)\n\nDielectric 2: Core (FR4)\n  - Thickness: 1.03 mm\n  - Dielectric constant: 4.6\n  - Loss tangent: 0.02\n\nLayer 3 (Inner Layer 2): Copper\n  - Thickness: 0.035 mm (1 oz)\n\nDielectric 3: Prepreg (FR4 7628 RC46)\n  - Thickness: 0.1855 mm\n  - Dielectric constant: 4.74\n  - Loss tangent: 0.02\n\nLayer 4 (Bottom Layer): Copper\n  - Thickness: 0.0175 mm (0.5 oz)\n\nOverall PCB Thickness: 1.6 mm"
+		(start 234.75 13)
+		(end 284 87)
+		(layer "Cmts.User")
+		(uuid "91c7e8ac-765b-48b1-be49-ab08d185e2d5")
 		(effects
 			(font
 				(size 1.5 1.5)
