@@ -4058,9 +4058,9 @@
 		)
 		(uuid "5b206193-bf46-4d35-9972-cedf9328aa92")
 	)
-	(hierarchical_label "RADIO_UART_RX"
+	(hierarchical_label "RADIO_UART_RTS"
 		(shape input)
-		(at 50.8 33.02 0)
+		(at 50.8 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4068,7 +4068,7 @@
 			)
 			(justify left)
 		)
-		(uuid "0ecad4ee-6bca-4e0b-8dfc-d903de6873c1")
+		(uuid "0f81dbae-de68-4c09-9ca3-c4585c4f988b")
 	)
 	(hierarchical_label "UART_RX"
 		(shape input)
@@ -4118,18 +4118,6 @@
 		)
 		(uuid "38ee614a-c1f0-4ed3-81ee-dd0b9ec76d4f")
 	)
-	(hierarchical_label "RADIO_UART_RTS"
-		(shape input)
-		(at 38.1 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "40848fdb-756d-4456-92a8-145a38ba1145")
-	)
 	(hierarchical_label "SPI_CS"
 		(shape input)
 		(at 38.1 43.18 180)
@@ -4166,18 +4154,6 @@
 		)
 		(uuid "4d866b51-a4f6-43da-b0d4-758de99603ff")
 	)
-	(hierarchical_label "RADIO_UART_CTS"
-		(shape input)
-		(at 38.1 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "64908bd9-856d-4eb1-a259-cbfdbd95f5fa")
-	)
 	(hierarchical_label "UART_TX"
 		(shape input)
 		(at 34.29 99.06 180)
@@ -4213,6 +4189,18 @@
 			(justify left)
 		)
 		(uuid "7bb55683-cb94-4f6c-ae13-e3f6cc51d32a")
+	)
+	(hierarchical_label "RADIO_UART_TX"
+		(shape input)
+		(at 38.1 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7de44715-5167-4f87-83d8-ffdf1d77b8d6")
 	)
 	(hierarchical_label "GPIO_1"
 		(shape input)
@@ -4322,17 +4310,17 @@
 		)
 		(uuid "be87c44a-8142-4b72-8d1b-a75e6fda8aa4")
 	)
-	(hierarchical_label "RADIO_UART_TX"
+	(hierarchical_label "RADIO_UART_RX"
 		(shape input)
-		(at 50.8 30.48 0)
+		(at 38.1 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "c601a09d-14d3-4925-9239-bd1908b34a38")
+		(uuid "c3a29e64-bbc2-409d-9891-ce8cf0c6e51e")
 	)
 	(hierarchical_label "UART_TX_{5V}"
 		(shape input)
@@ -4369,6 +4357,18 @@
 			(justify left)
 		)
 		(uuid "dc74d971-9461-413e-a268-01459c7b8370")
+	)
+	(hierarchical_label "RADIO_UART_CTS"
+		(shape input)
+		(at 50.8 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc791512-5a7b-4af5-8672-f91fe5d71f74")
 	)
 	(hierarchical_label "RADIO_UART_CTS"
 		(shape input)
