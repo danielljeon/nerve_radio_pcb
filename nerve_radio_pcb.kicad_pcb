@@ -2409,7 +2409,7 @@
 		(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 2.54mm single row")
 		(property "Reference" "J3"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "494da169-555c-45b7-9c7d-8ee4c0428c79")
 			(effects
@@ -2420,7 +2420,7 @@
 			)
 		)
 		(property "Value" "3V SPI Breakout"
-			(at 0 15.03 360)
+			(at 0 15.03 0)
 			(layer "F.Fab")
 			(uuid "76a6d54b-f376-450b-8c67-6bce6640a7f0")
 			(effects
