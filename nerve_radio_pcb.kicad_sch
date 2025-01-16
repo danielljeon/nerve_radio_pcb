@@ -4768,7 +4768,7 @@
 		)
 		(uuid "3a04ef08-f9f8-4d75-8af9-75d366d30e1d")
 	)
-	(text "Resistors: E96 Resistor Series, 1% Accuracy, \nTemperature Coefficient better or equal than ±200 ppm/°C\n\nC_{VIN} suggested: 10 μF, 25 V, Ceramic, 0805 (C3216X7R1E106M160AE, TDK)\nC_{VOUT} suggested: 22 μF, 16 V, Ceramic, 0805 (C2012X7S1A226M125AC, TDK)"
+	(text "Resistors: E96 Resistor Series, 1% Accuracy, \nTemperature Coefficient better or equal than ±200 ppm/°C\n\nC_{VIN} suggested: 10 μF, 25 V, Ceramic, 0805\nC_{VOUT} suggested: 22 μF, 16 V, Ceramic, 0805"
 		(exclude_from_sim no)
 		(at 77.216 19.05 0)
 		(effects
