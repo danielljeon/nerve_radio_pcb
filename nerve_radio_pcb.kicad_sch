@@ -5166,7 +5166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00542637-fbcd-4483-8f10-164e8881ffbb")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR014"
 			(at 63.5 54.61 0)
 			(effects
 				(font
@@ -5217,7 +5217,7 @@
 		(instances
 			(project "nerve_radio_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR015")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5768,7 +5768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3945e97e-09aa-4ee9-8d8e-00e6660d93f8")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 28.575 29.21 0)
 			(effects
 				(font
@@ -5820,7 +5820,7 @@
 		(instances
 			(project "nerve_radio_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -5901,7 +5901,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f42255d-a942-4057-bd26-eb6b4809eb18")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 108.585 31.75 0)
 			(effects
 				(font
@@ -5953,7 +5953,7 @@
 		(instances
 			(project "nerve_radio_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -6036,7 +6036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45d46345-fdfd-4237-90fb-35fab099ed76")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR026"
 			(at 234.95 153.67 0)
 			(effects
 				(font
@@ -6087,7 +6087,7 @@
 		(instances
 			(project "nerve_radio_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7195,174 +7195,6 @@
 		)
 	)
 	(symbol
-		(lib_id "connectors:bf030-20a-b1-0360-0277-0600-lb")
-		(at 44.45 38.1 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7974b076-8a38-432e-81f1-a79bde7d86bf")
-		(property "Reference" "J1"
-			(at 44.45 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BF030-20A-B1-0360-0277-0600-LB"
-			(at 44.45 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "connectors:bf030-20a-b1-0600-0277-0600-lb"
-			(at 44.45 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://gct.co/files/drawings/bf030.pdf"
-			(at 44.45 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Surface Mount 20 position 0.079\" (2.00mm)"
-			(at 80.01 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GCT"
-			(at 44.45 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "BF030-20A-B1-0360-0277-0600-LB"
-			(at 44.45 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 44.45 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" "2073-BF030-20A-B1-0360-0277-0600-LBCT-ND"
-			(at 44.45 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/gct/BF030-20A-B1-0360-0277-0600-LB/16396935"
-			(at 44.45 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "3e564b28-38fc-4a05-8153-689e6b94ca27")
-		)
-		(pin "20"
-			(uuid "f75389af-e465-4a83-9318-39532456fb15")
-		)
-		(pin "9"
-			(uuid "88871384-1981-4368-b248-ae99f6abf125")
-		)
-		(pin "14"
-			(uuid "0437cfab-88a1-4cd5-b5a1-3d0c95dc8e8a")
-		)
-		(pin "3"
-			(uuid "b355f6fd-e7d3-409b-b047-fe66392f79d4")
-		)
-		(pin "17"
-			(uuid "80ebcc6b-e77a-4ba4-b700-1d029b4734a9")
-		)
-		(pin "8"
-			(uuid "319ef190-852d-4d92-b28d-4234227ec3ec")
-		)
-		(pin "13"
-			(uuid "6709fcf0-ded9-4ee2-9eb3-9dcc30850d5c")
-		)
-		(pin "12"
-			(uuid "a70b0a86-3ada-4a5d-9efa-da1edaf8a513")
-		)
-		(pin "15"
-			(uuid "9c8bc1ac-6dbf-4a78-87f3-d8ce91aefd46")
-		)
-		(pin "6"
-			(uuid "514355b1-4f2c-4636-8f3c-ef4f85334e25")
-		)
-		(pin "19"
-			(uuid "1930b104-b4b7-441e-a526-ea037ff6e0fa")
-		)
-		(pin "4"
-			(uuid "1ffe427d-a734-48cc-ab4f-ebc754a8c96a")
-		)
-		(pin "1"
-			(uuid "dd95e05e-ac90-4027-af49-fa2f7c2f27ef")
-		)
-		(pin "18"
-			(uuid "b8eae28d-bdf9-4500-861c-6653a04e9a8b")
-		)
-		(pin "7"
-			(uuid "39936936-2ffc-4532-ad52-a9722fb47755")
-		)
-		(pin "2"
-			(uuid "aaa27acc-906d-416c-878e-faf228159a8f")
-		)
-		(pin "11"
-			(uuid "65062d43-c95b-428a-a504-c26828f72d21")
-		)
-		(pin "10"
-			(uuid "686783c2-4d18-41b3-8d25-76562cd79c1a")
-		)
-		(pin "16"
-			(uuid "ab6b032b-a475-4ad1-a675-9204ae3dadc9")
-		)
-		(instances
-			(project "nerve_radio_pcb"
-				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 57.15 27.94 0)
 		(mirror y)
@@ -7372,7 +7204,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "812dd630-6e18-495c-8f0a-0726246272d6")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 57.15 31.75 0)
 			(effects
 				(font
@@ -7422,7 +7254,7 @@
 		(instances
 			(project "nerve_radio_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7574,7 +7406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ecd969c-b970-4358-966e-ff08fccaad60")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR013"
 			(at 210.82 52.07 0)
 			(effects
 				(font
@@ -7625,7 +7457,7 @@
 		(instances
 			(project "nerve_radio_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR014")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8175,7 +8007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aec7ab93-7cf3-430f-8924-4e73adf6fd4b")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 157.48 54.61 0)
 			(effects
 				(font
@@ -8226,7 +8058,7 @@
 		(instances
 			(project "nerve_radio_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8306,7 +8138,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6f6a864-1df9-4107-a3db-57ebfbc2b8aa")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR07"
 			(at 111.76 34.29 0)
 			(effects
 				(font
@@ -8356,7 +8188,7 @@
 		(instances
 			(project "nerve_radio_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR05")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8424,6 +8256,174 @@
 			(project "nerve_radio_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "connectors:bf030-20a-b1-0360-0277-0600-lb")
+		(at 44.45 38.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be68e7b6-f5ed-4407-bd12-85b3fa5c8727")
+		(property "Reference" "J1"
+			(at 44.45 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BF030-20A-B1-0360-0277-0600-LB"
+			(at 44.45 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "connectors:bf030-20a-b1-0360-0277-0600-lb"
+			(at 44.45 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gct.co/files/drawings/bf030.pdf"
+			(at 44.45 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount 20 position 0.079\" (2.00mm)"
+			(at 80.01 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 44.45 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "BF030-20A-B1-0360-0277-0600-LB"
+			(at 44.45 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 44.45 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "2073-BF030-20A-B1-0360-0277-0600-LBCT-ND"
+			(at 44.45 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/gct/BF030-20A-B1-0360-0277-0600-LB/16396935"
+			(at 44.45 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "847d086d-7855-41a1-9c92-43e69571e54d")
+		)
+		(pin "6"
+			(uuid "a25fcf84-7bcc-483d-952d-29638d1b81df")
+		)
+		(pin "12"
+			(uuid "88c6a1e1-6217-4da1-85d6-1adfb603c3f6")
+		)
+		(pin "18"
+			(uuid "fdb4e67b-914e-4189-a05e-7922628afd2a")
+		)
+		(pin "7"
+			(uuid "cc307154-7559-440b-b4c6-6ed5006c94ea")
+		)
+		(pin "1"
+			(uuid "62f67309-7ecc-4ed0-a570-368e09ef930a")
+		)
+		(pin "20"
+			(uuid "cc57b07e-2b67-4e98-8a2d-6b1eef0c43df")
+		)
+		(pin "9"
+			(uuid "5f8354fe-de49-433b-a14b-b622fe362e5d")
+		)
+		(pin "4"
+			(uuid "e6a94838-135c-4544-bc25-d623bf395845")
+		)
+		(pin "13"
+			(uuid "4e33ba46-15ee-4c84-b074-cffd81b88272")
+		)
+		(pin "15"
+			(uuid "c2c6792f-595a-4353-aa5e-72ac8a42961a")
+		)
+		(pin "3"
+			(uuid "d9a13fcc-979a-4ae0-b376-a4c7f69e7e4d")
+		)
+		(pin "5"
+			(uuid "9176546b-a949-472f-bad9-82b44bf52a3c")
+		)
+		(pin "17"
+			(uuid "25c6bdd4-2fb7-4ce3-b046-f3833c424e0c")
+		)
+		(pin "8"
+			(uuid "215e34f9-9764-4fd8-88b5-4c36a6ae80dc")
+		)
+		(pin "14"
+			(uuid "21504331-b8d9-4994-8383-bcdbab96d7d0")
+		)
+		(pin "10"
+			(uuid "cb40fa4c-2746-4d15-b326-b7b64cb73ad5")
+		)
+		(pin "11"
+			(uuid "117b4db3-21c6-4f57-b915-8a2ad2da9165")
+		)
+		(pin "19"
+			(uuid "8641f68a-6bd8-4b98-90b9-5d4759de08ef")
+		)
+		(pin "16"
+			(uuid "7a398acf-23d1-4258-b1a5-4a6d3af1dcf7")
+		)
+		(instances
+			(project ""
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8713,7 +8713,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1408e4d-60ac-4801-a714-8eb7a662e409")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 152.4 34.29 0)
 			(effects
 				(font
@@ -8763,7 +8763,7 @@
 		(instances
 			(project "nerve_radio_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8778,7 +8778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1a430e5-7c9b-42e5-8bf9-23972820c1aa")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR05"
 			(at 31.75 31.75 0)
 			(effects
 				(font
@@ -8828,7 +8828,7 @@
 		(instances
 			(project "nerve_radio_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR07")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -9149,7 +9149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e57f6303-7ecb-4ad7-9492-7f99372440f5")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 57.15 156.21 0)
 			(effects
 				(font
@@ -9200,7 +9200,7 @@
 		(instances
 			(project "nerve_radio_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)

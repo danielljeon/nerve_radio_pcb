@@ -823,15 +823,15 @@
 			)
 		)
 	)
-	(footprint "connectors:bf030-20a-b1-0600-0277-0600-lb"
+	(footprint "connectors:bf030-20a-b1-0360-0277-0600-lb"
 		(layer "F.Cu")
 		(uuid "3d9e5774-38b2-4603-ad15-6bf8ea596754")
 		(at 149.5 84.25 180)
 		(property "Reference" "J1"
-			(at 11 0 0)
+			(at -11.5 -2 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "601932ed-beed-43c3-a8a1-e17f4199bd2f")
+			(uuid "695f062d-93de-4669-8241-b2540118755b")
 			(effects
 				(font
 					(size 1 1)
@@ -840,10 +840,10 @@
 			)
 		)
 		(property "Value" "BF030-20A-B1-0360-0277-0600-LB"
-			(at 0 4 0)
+			(at 0 4 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "b11e00a7-cf64-4eab-badd-21ceaa15c685")
+			(uuid "632a8358-c12d-4889-806c-d6bd1481675b")
 			(effects
 				(font
 					(size 1 1)
@@ -851,12 +851,12 @@
 				)
 			)
 		)
-		(property "Footprint" "connectors:bf030-20a-b1-0600-0277-0600-lb"
+		(property "Footprint" "connectors:bf030-20a-b1-0360-0277-0600-lb"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "145de1ff-4192-410d-a301-a5e7536bbcdd")
+			(uuid "6984983f-60ea-4566-9a8c-5c16fa0b4cb0")
 			(effects
 				(font
 					(size 1 1)
@@ -869,7 +869,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "11222b9c-a977-4699-b68c-f59bb5867b4e")
+			(uuid "61931da2-a292-4184-87eb-2595c702faa3")
 			(effects
 				(font
 					(size 1 1)
@@ -882,7 +882,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "df23178c-ba8a-4db6-b8b1-b8c164fa0936")
+			(uuid "4f45db9f-6ee3-4476-b99c-3aad7b2ec22c")
 			(effects
 				(font
 					(size 1 1)
@@ -894,7 +894,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0c50160e-ccfa-4e1d-b526-12b3c01dcb23")
+			(uuid "4b1673a3-9fcb-4210-b7c2-5e910033c679")
 			(effects
 				(font
 					(size 1 1)
@@ -906,7 +906,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "435c424c-0b21-4e73-bac1-852ef7783bc6")
+			(uuid "c67e2b8f-0641-4d14-ae39-3d9cb4b44a14")
 			(effects
 				(font
 					(size 1 1)
@@ -919,7 +919,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "49231bbd-e99b-4485-afcb-750024a5764b")
+			(uuid "1477ed6d-a4c1-47d0-86f8-d317be7924f2")
 			(effects
 				(font
 					(size 1 1)
@@ -932,7 +932,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f5d9ee34-deb0-4bd3-a5fe-3fe1cc958dd3")
+			(uuid "e2faf4d9-fa87-4755-85cd-ec761765d007")
 			(effects
 				(font
 					(size 1 1)
@@ -945,7 +945,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "160b7129-cc28-40c8-963d-033fb4ff0354")
+			(uuid "f2d8cc4f-6e93-4729-903c-ddd6925f020f")
 			(effects
 				(font
 					(size 1 1)
@@ -953,7 +953,7 @@
 				)
 			)
 		)
-		(path "/7974b076-8a38-432e-81f1-a79bde7d86bf")
+		(path "/be68e7b6-f5ed-4407-bd12-85b3fa5c8727")
 		(sheetname "Root")
 		(sheetfile "nerve_radio_pcb.kicad_sch")
 		(attr smd)
@@ -966,7 +966,7 @@
 			)
 			(fill none)
 			(layer "Edge.Cuts")
-			(uuid "4b39e33d-8e87-4333-a5d7-58cd83ceb675")
+			(uuid "73ef5b60-a8d9-4cd2-9347-7bc9ca253feb")
 		)
 		(fp_circle
 			(center -8 0)
@@ -977,7 +977,7 @@
 			)
 			(fill none)
 			(layer "Edge.Cuts")
-			(uuid "ac09a245-3c66-497f-86e8-c975632b6507")
+			(uuid "cd2b896b-6def-48b6-a627-cb0c59b839eb")
 		)
 		(fp_poly
 			(pts
@@ -989,13 +989,13 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "19b120d9-18f2-495a-821e-9ecfde94e475")
+			(uuid "fcd9bdf0-49d5-4204-97b4-f4ec35728aa5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "dfd4b7fb-eaeb-436b-9a40-c121159ee574")
+			(uuid "c0f46eb8-9dc3-4ece-bbc2-46462b863820")
 			(effects
 				(font
 					(size 1 1)
@@ -1011,7 +1011,7 @@
 			(net 4 "+5V")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "c929ed43-e8f0-4007-a84f-777560a985f6")
+			(uuid "db25f2e1-c9bb-4e88-a974-8e240611da94")
 		)
 		(pad "2" smd roundrect
 			(at -9 2 180)
@@ -1021,7 +1021,7 @@
 			(net 4 "+5V")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "37b5d856-101d-447d-97c1-3d6eedf7dc05")
+			(uuid "c3fcee24-90ae-4e16-8862-234f995d1483")
 		)
 		(pad "3" smd roundrect
 			(at -7 -2 180)
@@ -1031,7 +1031,7 @@
 			(net 5 "+3V3")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "c8b4f982-9541-43ef-a78b-a2f04413bef4")
+			(uuid "d99772a5-eff0-442d-a3de-347e5a3a3467")
 		)
 		(pad "4" smd roundrect
 			(at -7 2 180)
@@ -1041,7 +1041,7 @@
 			(net 5 "+3V3")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "238e196f-ba78-41b0-865f-5c870a28ded3")
+			(uuid "51a02def-5a86-4682-a4de-c1f86032ea45")
 		)
 		(pad "5" smd roundrect
 			(at -5 -2 180)
@@ -1051,7 +1051,7 @@
 			(net 14 "/RADIO_UART_RX")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "7b9a7812-c26f-420f-aef2-f4da45bf1219")
+			(uuid "adab9133-8080-47e4-a2fe-56d839d5a687")
 		)
 		(pad "6" smd roundrect
 			(at -5 2 180)
@@ -1061,7 +1061,7 @@
 			(net 3 "/RADIO_UART_CTS")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "f2790693-b4a3-49c8-9251-1a20b4b85de1")
+			(uuid "e7f20474-0989-4aee-95a5-ee74e65ac02f")
 		)
 		(pad "7" smd roundrect
 			(at -3 -2 180)
@@ -1071,7 +1071,7 @@
 			(net 10 "/RADIO_UART_TX")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "34d2cb63-3549-4e27-80d7-db41aab7aeac")
+			(uuid "15add51e-2d77-4277-99bb-2bef4fac08f3")
 		)
 		(pad "8" smd roundrect
 			(at -3 2 180)
@@ -1081,7 +1081,7 @@
 			(net 9 "/RADIO_UART_RTS")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "0ca640d5-fea5-4622-8c89-127236d37a4d")
+			(uuid "1f2a5f82-b453-4be2-a4f9-c1e75b80d9e5")
 		)
 		(pad "9" smd roundrect
 			(at -1 -2 180)
@@ -1091,7 +1091,7 @@
 			(net 2 "GND")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "b1605bce-f2c7-44f9-843d-22baafe4356e")
+			(uuid "a513a3da-fa8b-462a-9c66-17c9ddc01114")
 		)
 		(pad "10" smd roundrect
 			(at -1 2 180)
@@ -1101,7 +1101,7 @@
 			(net 13 "/RADIO_NRST")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "d2817ed7-99e2-4121-a702-462caf54ccce")
+			(uuid "ff5bbe0e-d3a4-4cff-bf0a-c7b216ea6e27")
 		)
 		(pad "11" smd roundrect
 			(at 1 -2 180)
@@ -1111,7 +1111,7 @@
 			(net 1 "/GPIO_1{slash}PWM_1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "ef764716-84c3-4b1d-8d63-b3a246c7d200")
+			(uuid "5bc94607-3896-43c7-9586-84a31c7e72c6")
 		)
 		(pad "12" smd roundrect
 			(at 1 2 180)
@@ -1121,7 +1121,7 @@
 			(net 2 "GND")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "c2f5e5d2-e804-4838-a43b-13e2473380d4")
+			(uuid "c8fcc480-bf4a-430e-a7c7-08bb4dcc96e1")
 		)
 		(pad "13" smd roundrect
 			(at 3 -2 180)
@@ -1131,7 +1131,7 @@
 			(net 15 "/SPI_MISO")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "10978711-9402-4c36-9dae-6f419aa79f56")
+			(uuid "a5be492e-5534-473f-b11a-f6831f730064")
 		)
 		(pad "14" smd roundrect
 			(at 3 2 180)
@@ -1141,7 +1141,7 @@
 			(net 6 "/GPIO_2{slash}PWM_2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "420d6d96-463f-454d-8ccb-011b8550447b")
+			(uuid "87c4259b-0630-4f2c-b531-3dfb9c81f378")
 		)
 		(pad "15" smd roundrect
 			(at 5 -2 180)
@@ -1151,7 +1151,7 @@
 			(net 8 "/SPI_MOSI")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "0282c4bc-0f21-4a0e-8f02-18a18a237a7a")
+			(uuid "a5eb8c53-0ec1-4318-8dfb-ee78f2d74cfa")
 		)
 		(pad "16" smd roundrect
 			(at 5 2 180)
@@ -1161,7 +1161,7 @@
 			(net 12 "/SPI_CLK")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "6212bfc6-8645-456c-bbe7-4fd23f351e32")
+			(uuid "1fe9a711-baf9-441e-8f97-b344d5d8c9cd")
 		)
 		(pad "17" smd roundrect
 			(at 7 -2 180)
@@ -1171,7 +1171,7 @@
 			(net 2 "GND")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "317421ca-38b5-4eb5-b83a-da1fdc223f48")
+			(uuid "848c13a0-8758-4a92-b6aa-32ec0f741481")
 		)
 		(pad "18" smd roundrect
 			(at 7 2 180)
@@ -1181,7 +1181,7 @@
 			(net 11 "/SPI_CS")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "80341f10-cff8-4d34-88cc-f47d33c83dff")
+			(uuid "033d0875-0e0b-485e-a908-249b522079b2")
 		)
 		(pad "19" smd roundrect
 			(at 9 -2 180)
@@ -1191,7 +1191,7 @@
 			(net 7 "Net-(J1-Pad19)")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "dcf523f6-ad49-488c-8c41-b3c31d980920")
+			(uuid "e0768497-df98-4198-aa11-848a8a29bfd3")
 		)
 		(pad "20" smd roundrect
 			(at 9 2 180)
@@ -1201,9 +1201,9 @@
 			(net 7 "Net-(J1-Pad19)")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "e52e97fb-7606-4c02-a25b-b076045b9d9a")
+			(uuid "708fe8b2-a9a9-4eef-a723-a585550889bf")
 		)
-		(model "${KIPRJMOD}/component_library/model_3d/gct/BF030-20A-B1-0600-0277-0600-LB.STEP"
+		(model "${KIPRJMOD}/component_library/model_3d/gct/BF030-20A-B1-0360-0277-0600-LB.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3767,7 +3767,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
-			(at 3.325 0 360)
+			(at 3.325 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "aefd6376-b158-4368-b133-1e119209fa23")
@@ -3779,7 +3779,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.Fab")
 			(uuid "39f84600-b923-4c00-b7db-0472f9960596")
 			(effects
@@ -3934,7 +3934,7 @@
 			(uuid "23d54465-5087-472c-8184-f0ad968b4f2a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "bf7f0518-28f0-440e-b783-ca3604cd6673")
 			(effects
@@ -4644,7 +4644,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
-			(at 3.325 0 360)
+			(at 3.325 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7743638a-7776-4f90-94ef-35f443a5c0a2")
@@ -4656,7 +4656,7 @@
 			)
 		)
 		(property "Value" "47p"
-			(at 3 0 360)
+			(at 3 0 0)
 			(layer "F.Fab")
 			(uuid "5d347897-b53a-4e88-aeb8-df46d98abc40")
 			(effects
@@ -4811,7 +4811,7 @@
 			(uuid "67e42fe0-7016-4f5c-a93e-9a24c5e889c1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "d1a885fb-022f-41c4-97b9-3405320cdecb")
 			(effects
