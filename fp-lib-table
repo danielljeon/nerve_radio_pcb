@@ -13,4 +13,5 @@
   (lib (name "ti_buck")(type "KiCad")(uri "${KIPRJMOD}/component_library/ti_buck.pretty")(options "")(descr ""))
   (lib (name "ublox")(type "KiCad")(uri "${KIPRJMOD}/component_library/ublox.pretty")(options "")(descr ""))
   (lib (name "radio_pcb_connectors")(type "KiCad")(uri "${KIPRJMOD}/component_local/radio_pcb_connectors.pretty")(options "")(descr ""))
+  (lib (name "radio_pcb_inductors")(type "KiCad")(uri "${KIPRJMOD}/component_local/radio_pcb_inductor.pretty")(options "")(descr ""))
 )

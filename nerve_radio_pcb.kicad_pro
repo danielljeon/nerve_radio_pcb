@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -458,7 +458,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "radio_pcb_connectors"
+      "radio_pcb_connectors",
+      "radio_pcb_inductors"
     ],
     "pinned_symbol_libs": []
   },
