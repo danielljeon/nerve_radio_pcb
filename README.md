@@ -10,6 +10,7 @@
   * [1 Overview](#1-overview)
   * [2 Board Specifications](#2-board-specifications)
     * [2.1 Connectors](#21-connectors)
+    * [2.2 Switching Buck Regulator](#22-switching-buck-regulator)
   * [3 Release Notes](#3-release-notes)
     * [3.1 v0.1.0-alpha](#31-v010-alpha)
     * [3.2 v1.0.0 (WIP)](#32-v100-wip)
@@ -42,6 +43,15 @@ Connectors fixed by hardware (PCB traces or the connector itself).
 | LMR51430 buck (5 V) regulator   | J2  | Pin 1: Ground, Pin 2: VIN supply (> 5 V, <= 36 V)                            |
 | 5 V GPIO/PWM breakout           | J3  | Pin 1: 5 V, Pin 2-3: GPIO/PWM 1-2 (5 V), Pin 5: Ground                       |
 | SPI breakout                    | J4  | Pin 1: 3.3 V, Pin 2: MISO, Pin 3: MOSI, Pin 4: CLK, Pin 5: CS, Pin 6: Ground |
+
+### 2.2 Switching Buck Regulator
+
+The `LMR51430` is used for the 5 V (3 A) supply from a 4.5 V to 36 V input.
+
+Also chosen based on previous experience and testing from a previous
+project, [robotic_hand_pcb](https://github.com/danielljeon/robotic_hand_pcb).
+See documentation
+at [robotic_hand_pcb/blob/main/README.md#5-switching-buck-regulator](https://github.com/danielljeon/robotic_hand_pcb/blob/main/README.md#5-switching-buck-regulator).
 
 ---
 
