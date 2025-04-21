@@ -4948,6 +4948,28 @@
 		)
 		(uuid "0c6b754a-49f9-46d3-b1ec-e66e4726bdd1")
 	)
+	(hierarchical_label "RADIO_UART_TX"
+		(shape input)
+		(at 82.55 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ca4f25a-514c-47b0-91bd-6ab7cbeb765b")
+	)
+	(hierarchical_label "RADIO_UART_RX"
+		(shape input)
+		(at 57.15 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1fe2e1d0-676a-4074-9792-ea513209a762")
+	)
 	(hierarchical_label "RADIO_UART_RTS"
 		(shape input)
 		(at 31.75 101.6 180)
@@ -4959,7 +4981,7 @@
 		)
 		(uuid "23a90d63-67e0-42b2-a997-c7de054e6d50")
 	)
-	(hierarchical_label "RADIO_UART_RX"
+	(hierarchical_label "RADIO_UART_TX"
 		(shape input)
 		(at 57.15 31.75 0)
 		(effects
@@ -4968,18 +4990,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2d07bf45-c9d3-448f-9e6d-dfb1a06653b8")
-	)
-	(hierarchical_label "RADIO_UART_RX"
-		(shape input)
-		(at 82.55 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "38ee614a-c1f0-4ed3-81ee-dd0b9ec76d4f")
+		(uuid "2adc3cd0-15fa-437a-8ce6-2738095641f6")
 	)
 	(hierarchical_label "SPI_CLK"
 		(shape input)
@@ -5024,6 +5035,17 @@
 			(justify right)
 		)
 		(uuid "60b4869f-e0c9-44ca-9302-12d23b03fb79")
+	)
+	(hierarchical_label "RADIO_UART_RX"
+		(shape input)
+		(at 31.75 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6196da5a-564c-4f98-9741-e49834f946be")
 	)
 	(hierarchical_label "SPI_MISO"
 		(shape input)
@@ -5189,28 +5211,6 @@
 			(justify right)
 		)
 		(uuid "e37ab2d4-a310-4088-860c-5dae53cc0dc0")
-	)
-	(hierarchical_label "RADIO_UART_TX"
-		(shape input)
-		(at 31.75 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e46061fc-756f-45bd-9030-f6035442c7a9")
-	)
-	(hierarchical_label "RADIO_UART_TX"
-		(shape input)
-		(at 57.15 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ec2a6683-b9a3-4943-b36e-d73318ba4bd8")
 	)
 	(hierarchical_label "RADIO_NRST"
 		(shape input)
