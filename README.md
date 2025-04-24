@@ -2,6 +2,11 @@
 
 ![kibot](https://github.com/danielljeon/nerve_radio_pcb/actions/workflows/kibot.yaml/badge.svg)
 
+Production optimized radio module board for
+the [nerve_pcb](https://github.com/danielljeon/nerve_pcb) project.
+
+---
+
 <details markdown="1">
   <summary>Table of Contents</summary>
 
@@ -17,9 +22,6 @@
 <!-- TOC -->
 
 </details>
-
-Production optimized radio module board for
-the [nerve_pcb](https://github.com/danielljeon/nerve_pcb) project.
 
 ---
 
