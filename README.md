@@ -41,8 +41,8 @@ Connectors fixed by hardware (PCB traces or the connector itself).
 
 | Connector                       | Ref | Description                                                                  |
 |---------------------------------|:---:|------------------------------------------------------------------------------|
-| Bottom side 2x10 board-to-board | J1  | See schematic/layout for details                                             |
-| LMR51430 buck (5 V) regulator   | J2  | Pin 1: Ground, Pin 2: VIN supply (> 5 V, <= 36 V)                            |
+| LMR51430 buck (5 V) regulator   | J1  | Pin 1: Ground, Pin 2: VIN supply (> 5 V, <= 36 V)                            |
+| Bottom side 2x10 board-to-board | J2  | See schematic/layout for details                                             |
 | 5 V GPIO/PWM breakout           | J3  | Pin 1: 5 V, Pin 2-3: GPIO/PWM 1-2 (5 V), Pin 5: Ground                       |
 | SPI breakout                    | J4  | Pin 1: 3.3 V, Pin 2: MISO, Pin 3: MOSI, Pin 4: CLK, Pin 5: CS, Pin 6: Ground |
 
