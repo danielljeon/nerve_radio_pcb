@@ -2173,7 +2173,7 @@
 				)
 			)
 		)
-		(property "Value" "TVS"
+		(property "Value" "SMAJ15A-13-F"
 			(at 0 2.6 90)
 			(layer "F.Fab")
 			(uuid "5a1ea707-5f6b-47d2-bbe4-20c83b452e58")
@@ -4532,7 +4532,7 @@
 				)
 			)
 		)
-		(property "Value" "Schottky"
+		(property "Value" "SK36A-LTP"
 			(at 0 2.6 90)
 			(layer "F.Fab")
 			(uuid "54ff78a0-f4ea-49fa-a3bb-d8eaf47698a8")
