@@ -2,8 +2,8 @@
 
 ![kibot](https://github.com/danielljeon/nerve_radio_pcb/actions/workflows/kibot.yaml/badge.svg)
 
-Production optimized radio module board for
-the [nerve_pcb](https://github.com/danielljeon/nerve_pcb) project.
+Radio and power supply module
+to [`nerve_pcb`](https://github.com/danielljeon/nerve_pcb).
 
 ---
 
